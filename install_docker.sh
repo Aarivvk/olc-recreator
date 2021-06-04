@@ -16,4 +16,6 @@ sudo usermod -aG docker $USER
 
 sudo systemctl start docker
 
+newgrp docker
+
 echo "Installation script of docker completed!"
